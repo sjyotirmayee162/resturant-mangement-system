@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+.hero-sec-footer {
+    background-color: #474747;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 3%;
+
+}
+
+.hero-sec-footer .left-col img {
+    width: 70%;
+
+}
+
+.hero-sec-footer .left-col p {
+    color: #ADB29E;
+    font-size: 1.3vw;
+    padding-top: 6%;
+}
+
+.left-col .icon-hero {
+    gap: 5%;
+}
+
+.left-col .icon-hero .icon-bg {
+    background-color: #AD343E;
+    color: #FFFFFF;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4vw;
+    margin-bottom: 5%;
+}
+
+.menu-list {
+    gap: 20%;
+}
+
+.menu-list h3 {
+    font-size: 1.3vw;
+    color: #FFFFFF;
+    padding-bottom: 10%;
+}
+
+.menu-list p {
+    color: #ADB29E;
+    font-size: 1.3vw;
+}
+
+.right-col h3 {
+    font-size: 1.3vw;
+    color: #FFFFFF;
+    padding-bottom: 5%;
+}
+.footer-sec{
+    background-color: #474747;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ADB29E;
+    font-size: 1.3vw;
+}
+@media screen and (max-width: 766px){
+    .hero-sec-footer .left-col p {
+        font-size: 2vw;
+    }
+}
