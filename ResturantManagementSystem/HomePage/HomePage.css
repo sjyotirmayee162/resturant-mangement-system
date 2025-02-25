@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Playfair Display", serif;
+
+}
+
+
+.food-hero-sec {
+    background-image: url(../assets/NavbarImages/46242c265ee4fe6a7935e17a54331b22.png);
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.food-sec {
+    text-align: center;
+}
+
+.food-sec h1 {
+    font-size: 3.4vw;
+    letter-spacing: 1px;
+    color: #2C2F24;
+}
+
+.food-sec p {
+    font-family: "DM Sans", serif;
+    color: #2C2F24;
+    font-size: 1vw;
+}
+
+.food-sec .book-table {
+    background-color: #AD343E;
+    padding: 1% 2% 1% 2%;
+    border-radius: 23px;
+    border: none;
+    font-size: 1.1vw;
+    font-family: "DM Sans", serif;
+    color: #FFFFFF;
+}
+
+.explore-btn {
+    background-color: white;
+    border: 1.6px solid black;
+    padding: 1% 2% 1% 2%;
+    border-radius: 23px;
+    font-size: 1.1vw;
+    font-family: "DM Sans", serif;
+    color: #182226;
+
+}
+
+.hero-abt-sec-img {
+    padding: 30px;
+}
+
+.hero-abt-sec-img img {
+    border-radius: 12px;
+    height: 100%;
+    width: 100%;
+}
+
+.hero-abt-sec-rhs {
+    padding: 20px;
+    border: 1px solid red;
+}
+
+.hero-abt-sec-rhs h2 {
+    font-size: 2.5vw;
+    font-weight: 400;
+    font-family: "Playfair Display", serif;
+}
+
+.first-para {
+    padding-top: 1.8%;
+    font-size: 1.1vw;
+    font-weight: 500;
+    font-family: "DM Sans", serif;
+    color: #2C2F24;
+}
+
+.second-para {
+    font-size: 1.1vw;
+    font-weight: 400;
+    font-family: "DM Sans", serif;
+    color: #414536;
+}
+
+.click-more {
+    background-color: white;
+    font-size: 1vw;
+    font-weight: 600;
+    padding: 2% 3% 2% 3%;
+    border-radius: 25px;
+    border: 1.5px solid #2C2F24;
+    font-family: "DM Sans", serif;
+}
+
+/* hero-abt-sec-start */
+
+.hero-abt-sec {
+    background-color: #F9F9F7;
+    padding: 5% 5% 5% 5%;
+}
+
+.hero-abt-sec .contact-details {
+    background-color: #474747;
+    border-radius: 7px;
+    position: absolute;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    bottom: 0;
+
+}
+
+.contact-details h3 {
+    font-family: "DM Sans", serif;
+    font-size: 2vw;
+}
+
+.contact-details p {
+    font-family: "DM Sans", serif;
+    font-size: 1vw;
+}
+
+
+/* hero-abt-sec-end */
+
+.catagories-sec h2 {
+    color: black;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 2.5vw;
+
+
+}
+
+.card-img-hero .img-main img {
+    border-radius: 20px;
+    border: none;
+}
+
+.card h3 {
+    font-family: "DM Sans", serif;
+    line-height: 30px;
+    padding-top: 5%;
+    color: #2C2F24;
+
+}
+
+.card p {
+    color: #414536;
+    font-family: "DM Sans", serif;
+}
+
+.city-delivery-sec h2 {
+    color: black;
+    font-size: 2.5vw;
+    font-weight: 400;
+    font-family: "Playfair Display", serif;
+}
+
+.city-delivery-sec p {
+    font-family: "DM Sans", serif;
+    color: #414536;
+}
+
+.city-delivery-sec i {
+    background-color: #AD343E;
+    color: white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
