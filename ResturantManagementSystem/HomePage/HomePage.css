@@ -68,7 +68,7 @@
 
 .hero-abt-sec-rhs {
     padding: 20px;
-    border: 1px solid red;
+    
 }
 
 .hero-abt-sec-rhs h2 {
@@ -186,4 +186,60 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.customer-feedback h3 {
+    font-family: "DM Sans", serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -3%;
+    color: #AD343E;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    
+
+
+}
+
+.customer-feedback P {
+    font-family: "DM Sans", serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+}
+
+.feedback-sec h2 {
+    color: black;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 2.5vw;
+
+}
+
+.profile-details h4 {
+    font-family: "DM Sans", serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    
+
+}
+
+.profile-details p {
+    font-family: "DM Sans", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+
 }
