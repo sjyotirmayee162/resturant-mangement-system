@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>about</title>
     <link rel="stylesheet" href="./about.css">
+    <link rel="stylesheet" href="../navbar/navbar.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -19,6 +20,77 @@
 </head>
 
 <body>
+
+    <!--------------------------------- Navbar Start Here---------------------------------->
+    <section class="navbar-header-page pt-2 pb-2">
+        <div class="container">
+            <div class="row header-page">
+                <div class=" d-flex justify-content-between align-items-center navbar-tele">
+                    <div class="d-flex pt-2 gap-3">
+                        <p><i class="bi bi-telephone"></i> (414) 857 - 0107 </p>
+                        <p><i class="bi bi-envelope"></i> yummy@bistrobliss </p>
+                    </div>
+                    <div class=" d-flex gap-3">
+                        <div class="social-media">
+                            <i class="bi bi-twitter"></i>
+                        </div>
+                        <div class="social-media">
+                            <i class="bi bi-facebook"></i>
+                        </div>
+                        <div class="social-media">
+                            <i class="bi bi-instagram"></i>
+                        </div>
+                        <div class="social-media">
+                            <i class="bi bi-github"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <nav class="navbar-menu-sec pt-4 pb-2">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div>
+                <img src="../assets/NavbarImages/Logo.png" alt="" class="img-fluid">
+            </div>
+            <div class="menu-bar">
+                <ul class="d-flex gap-3 list-unstyled align-items-center mb-0 menu">
+                    <a href="../HomePage/HomePage.html">
+                        <li class="px-3 py-1 rounded-pill">Home</li>
+                    </a>
+                    <a href="../about/about.html">
+                        <li class="px-3 py-1 rounded-pill select-menu">About</li>
+                    </a>
+                    <a href="../menu/index.html">
+                        <li class="px-3 py-1 rounded-pill">Menu</li>
+                    </a>
+                    <a href="../pages/index.html">
+                        <li class="px-3 py-1 rounded-pill">Pages</li>
+                    </a>
+                    <a href="../contact/index.html">
+                        <li class="px-3 py-1 rounded-pill">Contact</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="d-flex align-items-center">
+                <button type="button" class="btn px-4 py-2 rounded-pill border border-2 border-dark">Book A
+                    Table</button>
+            </div>
+            <div class="hide-desktop">
+                <div class="dropdown">
+                    <i class="bi bi-list" data-bs-toggle="dropdown"></i>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Home</a></li>
+                        <li><a class="dropdown-item" href="#">Menu</a></li>
+                        <li><a class="dropdown-item" href="#">Pages</a></li>
+                        <li><a class="dropdown-item" href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </nav>
+    <!--------------------------------- Navbar End Here---------------------------------->
     <!---------------------about-first-sec-start------------------------------->
     <section class="main-sec">
         <div class="container">
